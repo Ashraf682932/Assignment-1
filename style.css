@@ -1,0 +1,53 @@
+.nav{
+    justify-content: space-between;
+    display:flex;
+}
+.navigation{
+    display: flex;
+    justify-content:space-between;
+    justify-items:center;
+}
+.Bangladesh-section{
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    text-align: center;
+}
+.hero{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #eaf4e0;
+    padding: 40px;
+    border-radius: 10px;
+    margin: 20px;
+    font-size:32px;
+    font-family:Fira Sans ;
+}
+.content{
+    max-width: 50%;
+}
+.content-1{
+    color: gray;
+    font-size: 24px;
+}
+.content-2{
+    font-size: 32px;
+    font-weight: bold;
+}
+.btn-1{
+    background: green;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    font-size: 16px;
+    font-family:Fira Sans;
+   
+}
+.img-1{
+    width:250px;
+    display: inline;
+    margin-right: 200px;
+}
+
