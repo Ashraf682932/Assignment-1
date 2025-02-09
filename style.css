@@ -89,9 +89,16 @@
    align-items: start;
 
 }
+/* card section */
+.card-section{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+
 .card{
     display: flex;
-    gap: 4;
+    gap:20px;
 padding: 32px;
 right:10px;
     
@@ -100,9 +107,10 @@ right:10px;
     align-items: center;
     box-sizing: border-box;
 border-radius: 16px;
-
+box-sizing: border-box;
+border-radius: 16px;
+padding: 32px;
 background: rgba(84, 144, 245, 0.2);
-padding: 5px;
 }
 .card-1-btn{
     border-radius: 8px;
@@ -124,5 +132,69 @@ background: rgb(198, 228, 214);
     padding: 11px 20px 11px 20px;
     justify-content: center;
    background-color: rgb(9, 161, 92); 
+   color:white;
+   border-radius: 8px;
+
+}
+.card-3{
+    align-items: center;
+    box-sizing: border-box;
+border-radius: 16px;
+box-sizing: border-box;
+border-radius: 16px;
+padding: 32px;
+background: rgb(247, 235, 207);
+}
+.card-3-btn{
+    padding: 11px 20px 11px 20px;
+    justify-content: center;
+    color:white;
+    border-radius: 8px;
+background: rgb(255, 194, 57);
+}
+/* lorem section */
+.lorem{
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    box-sizing: border-box;
+}
+.p-lorem{
+    font-size:16px ;
+    color: rgba(14, 14, 14, 0.8);
+}
+.Adviser{
+    font: bold;
+}
+.paragraph{
+    font-size:16px ;
+    color: rgba(14, 14, 14, 0.6)
+
+}
+/* satelite section */
+.satelite-section{
+    padding: 20px 20px 20px 20px ;
+}
+.satelite{
+    display: flex;
+  gap:20px;
+}
+.satelite-img{
+    border-radius: 24px;
+    margin: 0px 32px;
+}
+.satelite-text{
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 16px;
+}
+.satelite-btn{
+    border-radius: 8px;
+background: rgb(0, 106, 80);
+justify-content: center;
+align-items: center;
+padding: 13px 26px 13px 26px;
+color: rgb(255, 255, 255);
+font-size: 18px;
 
 }
